@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import '../../styles/Recommendation.css';
-import axios from 'axios'
+import '../../styles/RecommendationModal.css';
+import axios from 'axios';
 
-class Recommendation extends Component {
+
+class RecommendationModal extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -19,7 +20,7 @@ class Recommendation extends Component {
                     if (this.state.data !== null && this.state.isFetching === false) {
                         const filmData = this.state.data;
 
-                        return (<div className="recommendation-div">
+                        return (<div>
                                     <h1 className="header">{filmData.Title}</h1>
                                     <div className="poster-div">
                                         <a href={this.props.props.imdbLink}>
@@ -58,6 +59,7 @@ class Recommendation extends Component {
 
     async fetchRecommendationsAsync() {
         const imdbId = getImdbId(this.props.props.imdbLink);
+        console.log(this.props.props);
 
         const options = {
             method: 'get',
@@ -79,9 +81,7 @@ class Recommendation extends Component {
     };
 
     fetchRecommendations = this.fetchRecommendationsAsync;
-
 }
-
 function getImdbId(imdbLink) {
     var urlString = String(imdbLink);
     return urlString.slice(27).replace('/', '');
@@ -118,4 +118,4 @@ function createTag(tag) {
     return <button className="tag-button">{formatted}</button>;
 }
 
-export default Recommendation;
+export default RecommendationModal;

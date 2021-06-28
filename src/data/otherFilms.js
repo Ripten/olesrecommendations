@@ -49,6 +49,14 @@ export const otherFilms =
       "tags": ["WAR"]
     },
     {
+      "title": "Edge Of Tomorrow",
+      "star": false,
+      "language": "English",
+      "year": 2014,
+      "imdbLink": "https://www.imdb.com/title/tt1631867/",
+      "tags": ["SCIFI", "ACTION"]
+    },
+    {
       "title": "Hana-bi",
       "star": false,
       "language": "Japanese",

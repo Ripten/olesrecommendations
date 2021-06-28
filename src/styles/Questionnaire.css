@@ -29,6 +29,10 @@
     font-style: bold;
     color: black;
     cursor: pointer;
+    opacity: 0.9;
+}
+
+.choice-div:hover {
     opacity: 1;
 }
 
@@ -51,8 +55,12 @@
     font-style: bold;
     color: white;
     cursor: pointer;
-    opacity: 1;
+    opacity: 0.9;
     width: 400px;
+}
+
+.recommendation-button:hover {
+    opacity: 1;
 }
 
 .genre-row {
@@ -76,6 +84,10 @@
     font-style: bold;
     color: black;
     cursor: pointer;
+    opacity: 0.9;
+}
+
+.genre-button:hover {
     opacity: 1;
 }
 

@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import '../../styles/Media.css';
-import '../../styles/MediaModal.css';
 import '../../styles/Questionnaire.css';
-import MediaModal from '../common/MediaModal.js';
+import '../../styles/RecommendationModal.css'
 import {  getTitle, getRecommendations } from '../common/common.jsx';
-import RecommendationsTable from './RecommendationsTable.js';
+import Recommendation from './Recommendation.js';
+import Modal from './Modal.js'
 
 
 class Recommendations extends Component {
@@ -28,10 +28,16 @@ class Recommendations extends Component {
     render() {
         return (
             <div>
-                <MediaModal show={this.state.show} handleClose={this.hideModal} data={this.state.data} ></MediaModal>
+                <Modal show={this.state.show} handleClose={this.hideModal} data={this.state.data} ></Modal>
                 {(() => { 
                     if (this.state.films.length > 0 && this.state.films.length < 21)
-                        return <RecommendationsTable films={this.state.films} />
+                        return <div>
+                            {this.state.films.map((film) => (
+                                <div key={film.title}>
+                                    <Recommendation props={film} />
+                                </div>
+                            ))}
+                        </div>
                     else if (this.state.films.length > 20)
                         return <div className="table-content">
                         <table align="center">

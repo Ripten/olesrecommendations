@@ -32,6 +32,10 @@ class Recommendations extends Component {
                 {(() => { 
                     if (this.state.films.length > 0 && this.state.films.length < 21)
                         return <div>
+                            <div className="result">
+                                <div>{this.state.films.length} suitable recommendations found!</div>
+                                <div>Refresh the page or click on the banner to start over</div>
+                            </div>
                             {this.state.films.map((film) => (
                                 <div key={film.title}>
                                     <Recommendation props={film} />
@@ -40,6 +44,10 @@ class Recommendations extends Component {
                         </div>
                     else if (this.state.films.length > 20)
                         return <div className="table-content">
+                        <div className="result-table">
+                                <div>{this.state.films.length} suitable recommendations found!</div>
+                                <div>Refresh the page or click on the banner to start over</div>
+                        </div>
                         <table align="center">
                             <thead>
                                 <tr>
@@ -60,7 +68,10 @@ class Recommendations extends Component {
                         </table>
                         </div>
                     else
-                        return <p>No recommendations match your filters. Click the banner to start over.</p>
+                        return <div className="result">
+                                    <div>No suitable recommendations found with your filters.</div>
+                                    <div>Refresh the page or click on the banner to start over</div>
+                                </div>
                 })()}
                 <p>{this.state.isFetching ? 'Loading...' : ''}</p>
             </div>

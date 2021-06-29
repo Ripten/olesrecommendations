@@ -85,10 +85,27 @@
     color: black;
     cursor: pointer;
     opacity: 0.9;
+    border: none;
+    outline: none;
 }
 
 .genre-button:hover {
     opacity: 1;
+}
+
+.result {
+    margin-top: 200px;
+    font: 30px "Garamond";
+    color:  #f5ebd0;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.result-table {
+    font: 30px "Garamond";
+    color:  #f5ebd0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /*__________________________________________________________ Adjustments to make design mobile friendly ______________________________________________________*/
@@ -304,6 +321,16 @@
         font: 17px "Garamond";
         width: 120px;
     }
+
+    .result {
+        margin-top: 200px;
+        font: 25px "Garamond";
+        padding-bottom: 0px;
+    }
+
+    .result-table {
+        font: 25px "Garamond";
+    }
 }
 
 @media only screen and (max-width: 620px) {
@@ -319,6 +346,15 @@
     .choice-div {
         margin-left: 15%;
         margin-right: 15%;
+    }
+
+    .result {
+        margin-top: 180px;
+        font: 22px "Garamond";
+    }
+
+    .result-table {
+        font: 22px "Garamond";
     }
 }
 
@@ -354,11 +390,30 @@
         font: 15px "Garamond";
         width: 100px;
     }
+
+    .result {
+        margin-top: 180px;
+        font: 21px "Garamond";
+        padding-bottom: 0px;
+    }
+
+    .result-table {
+        font: 21px "Garamond";
+    }
 }
 
 @media only screen and (max-width: 490px) {
     .questionnaire-content {
         margin-top: 130px;
+    }
+
+    .result {
+        margin-top: 170px;
+        font: 18px "Garamond";
+    }
+
+    .result-table {
+        font: 18px "Garamond";
     }
 }
 
@@ -390,6 +445,15 @@
         padding-bottom: 5px;
         font: 13px "Garamond";
         width: 85px;
+    }
+
+    .result {
+        margin-top: 150px;
+        font: 16px "Garamond";
+    }
+
+    .result-table {
+        font: 16px "Garamond";
     }
 }
 
@@ -423,6 +487,15 @@
         font: 12px "Garamond";
         width: 80px;
     }
+
+    .result {
+        margin-top: 130px;
+        font: 15px "Garamond";
+    }
+
+    .result-table {
+        font: 15px "Garamond";
+    }
 }
 
 @media only screen and (max-width: 370px) {
@@ -445,6 +518,15 @@
         font: 11px "Garamond";
         width: 75px;
     }
+
+    .result {
+        margin-top: 130px;
+        font: 14px "Garamond";
+    }
+
+    .result-table {
+        font: 14px "Garamond";
+    }
 }
 
 @media only screen and (max-width: 340px) {
@@ -466,6 +548,15 @@
         font: 10px "Garamond";
         width: 70px;
     }
+
+    .result {
+        margin-top: 130px;
+        font: 13px "Garamond";
+    }
+
+    .result-table {
+        font: 13px "Garamond";
+    }
 }
 
 @media only screen and (max-width: 330px) {
@@ -481,6 +572,15 @@
         font: 12px "Garamond";
         margin-top: 7px;
         margin-bottom: 7px;
+    }
+
+    .result {
+        margin-top: 105px;
+        font: 12px "Garamond";
+    }
+
+    .result-table {
+        font: 12px "Garamond";
     }
 }
 

@@ -17,7 +17,7 @@ class RecommendationModal extends Component {
     render() {
         return (
             <div>
-                <p>{this.state.isFetching ? 'Fetching recommendations...' : ''}</p>
+                <p className="loadingmessage">{this.state.isFetching ? 'Fetching metadata...' : ''}</p>
                 {(() => { 
                     if (this.state.data !== null && this.state.isFetching === false) {
                         const filmData = this.state.data;

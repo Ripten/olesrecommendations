@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/olesrecommendations/static/css/main.88ca0167.chunk.css",
-    "main.js": "/olesrecommendations/static/js/main.ce820dcd.chunk.js",
-    "main.js.map": "/olesrecommendations/static/js/main.ce820dcd.chunk.js.map",
+    "main.css": "/olesrecommendations/static/css/main.8ec5a771.chunk.css",
+    "main.js": "/olesrecommendations/static/js/main.5b31d19d.chunk.js",
+    "main.js.map": "/olesrecommendations/static/js/main.5b31d19d.chunk.js.map",
     "runtime-main.js": "/olesrecommendations/static/js/runtime-main.8f83e21e.js",
     "runtime-main.js.map": "/olesrecommendations/static/js/runtime-main.8f83e21e.js.map",
     "static/js/2.7e0864a5.chunk.js": "/olesrecommendations/static/js/2.7e0864a5.chunk.js",
     "static/js/2.7e0864a5.chunk.js.map": "/olesrecommendations/static/js/2.7e0864a5.chunk.js.map",
     "index.html": "/olesrecommendations/index.html",
-    "static/css/main.88ca0167.chunk.css.map": "/olesrecommendations/static/css/main.88ca0167.chunk.css.map",
+    "static/css/main.8ec5a771.chunk.css.map": "/olesrecommendations/static/css/main.8ec5a771.chunk.css.map",
     "static/js/2.7e0864a5.chunk.js.LICENSE.txt": "/olesrecommendations/static/js/2.7e0864a5.chunk.js.LICENSE.txt",
     "static/media/Kon.19a21553.png": "/olesrecommendations/static/media/Kon.19a21553.png",
     "static/media/star.3f026a8c.png": "/olesrecommendations/static/media/star.3f026a8c.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.8f83e21e.js",
     "static/js/2.7e0864a5.chunk.js",
-    "static/css/main.88ca0167.chunk.css",
-    "static/js/main.ce820dcd.chunk.js"
+    "static/css/main.8ec5a771.chunk.css",
+    "static/js/main.5b31d19d.chunk.js"
   ]
 }

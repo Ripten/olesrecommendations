@@ -2,7 +2,7 @@ import React from 'react';
 import star from '../../images/star.png';
 import favoriteFilms from '../../data/favoriteFilms.js';
 import otherFilms from '../../data/otherFilms.js';
-import '../../styles/Media.css';
+import '../../styles/Table.css';
 
 
 export function getTitle(element) {
@@ -91,4 +91,48 @@ function isAnimation(film) {
 
 function filmContainsAtLeastOneTag(filmTags, requestTags) {
     return filmTags.some(tag => requestTags.includes(tag));
+}
+
+export function getImdbId(imdbLink) {
+    var urlString = String(imdbLink);
+    return urlString.slice(27).replace('/', '');
+}
+
+export function getImdbScore(ratings) {
+    var score = "";
+
+    if (ratings != null) {
+        ratings.forEach(rating => {
+            if (rating.Source === "Internet Movie Database") {
+                score = rating.Value.substring(0, 3);
+            }
+        });
+    }
+
+    return score;
+}
+
+export function getDirectorOrWriter(metadata) {
+    if (metadata.Director !== "N/A") {
+        return "Directed by " + metadata.Director;
+    }
+    else if (metadata.Writer !== "N/A") {
+        return "Written by " + metadata.Writer;
+    }
+    else {
+        return "";
+    }
+}
+
+export function createTag(tag, title) {
+    const key = title + " - " + tag;
+    var formatted = "";
+    
+    if (tag === "BLACK_AND_WHITE") {
+        formatted = "BlackAndWhite";
+    } else {
+        formatted = tag.charAt(0) + tag.substring(1).toLowerCase();
+    }
+
+    return <button className="tag-button" key={key}>{formatted}</button>;
 }

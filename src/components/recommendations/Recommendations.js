@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../styles/Media.css';
+import '../../styles/Table.css';
 import '../../styles/Questionnaire.css';
 import '../../styles/RecommendationModal.css'
 import {  getTitle, getRecommendations } from '../common/common.jsx';

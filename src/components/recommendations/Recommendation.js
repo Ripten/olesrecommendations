@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../../styles/Recommendation.css';
 import axios from 'axios'
+import {  getImdbId, getDirectorOrWriter, getImdbScore, createTag } from '../common/common.jsx';
 
 class Recommendation extends Component {
     constructor(props) {
@@ -20,7 +21,7 @@ class Recommendation extends Component {
                         const filmData = this.state.data;
 
                         return (<div className="recommendation-div">
-                                    <h1 className="header">{filmData.Title}</h1>
+                                    <h1 className="header">{this.props.props.title}</h1>
                                     <div className="poster-div">
                                         <a href={this.props.props.imdbLink}>
                                             <img className="poster" src={filmData.Poster} alt="poster" />
@@ -33,16 +34,7 @@ class Recommendation extends Component {
                                         <p className="info">Runtime: {filmData.Runtime}</p>
                                         <p className="tags-header">Tags:</p>
                                         {this.props.props.tags.map((tag) => (
-                                            createTag(tag)
-                                        ))}
-                                        {this.props.props.tags.map((tag) => (
-                                            createTag(tag)
-                                        ))}
-                                        {this.props.props.tags.map((tag) => (
-                                            createTag(tag)
-                                        ))}
-                                        {this.props.props.tags.map((tag) => (
-                                            createTag(tag)
+                                            createTag(tag, this.props.props.title)
                                         ))}
                                     </div>
                             </div>)
@@ -80,42 +72,6 @@ class Recommendation extends Component {
 
     fetchRecommendations = this.fetchRecommendationsAsync;
 
-}
-
-function getImdbId(imdbLink) {
-    var urlString = String(imdbLink);
-    return urlString.slice(27).replace('/', '');
-}
-
-function getImdbScore(ratings) {
-    var score = "";
-
-    if (ratings != null) {
-        ratings.forEach(rating => {
-            if (rating.Source === "Internet Movie Database") {
-                score = rating.Value.substring(0, 3);
-            }
-        });
-    }
-
-    return score;
-}
-
-function getDirectorOrWriter(metadata) {
-    if (metadata.Director !== "N/A") {
-        return "Directed by " + metadata.Director;
-    }
-    else if (metadata.Writer !== "N/A") {
-        return "Written by " + metadata.Writer;
-    }
-    else {
-        return "";
-    }
-}
-
-function createTag(tag) {
-    const formatted = tag.charAt(0) + tag.substring(1).toLowerCase();
-    return <button className="tag-button">{formatted}</button>;
 }
 
 export default Recommendation;

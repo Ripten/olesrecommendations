@@ -35,91 +35,43 @@
     display: none;
 }
 
-.modal-content {
-    color: white;
-}
-
-.metadata {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.modal-header {
-    color: white;
-    text-align: center;
-    font: 30px "Garamond";
-}
-
-.modal-poster {
-    width: 300px;
-    align-content: center;
-    padding-bottom: 15px;
-}
-
-.modal-info {
-    align-content: center;
-    font: 20px "Garamond";
-}
-
-.header {
-    color: white;
-    text-align: center;
-    font: 35px "Garamond";
-    margin-bottom: 40px;;
-}
-
-.poster {
-    width: 250px;
-    padding-bottom: 15px;
-    cursor: pointer;
-    opacity: 0.9;
-}
-
-.poster:hover {
-    opacity: 1;
-}
-
-.info {
-    font: 20px "Garamond";
-}
-
-.tags-header {
-    margin-top: 40px;
-    font: 20px "Garamond";
-}
-
-.tag-button {
-    border-radius: 25px;
-    width: 120px;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: grey;
-    background-color: #d337c6;
-    font: 18px "Garamond";
-    font-style: bold;
-    color: white;
-}
-
-.information-div {
-    margin-right: 10px;
-}
-
-.poster-div {
-    float: left;
-    margin-right: 50px;
-    margin-left: 30px;
-}
-
 /*__________________________________________________________ Adjustments to make design mobile friendly ______________________________________________________*/
+
+
+@media only screen and (max-width: 860px) {
+    .modal-main {
+        width: 98%;
+        height: 60%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .modal-main {
+        height: 55%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .modal-main {
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .modal-main {
+        height: 45%;
+    }
+}
 
 @media only screen and (max-width: 530px) {
     .modal-main {
-        width: 360px;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .modal-main {
+        height: 35%;
     }
 }
 
@@ -129,29 +81,7 @@
     }
     
     .modal-main {
-        width: 330px;
-    }
-
-    .modal-header {
-        font: 25px "Garamond";
-        padding-right: 18px;
-        padding-left: 18px;
-    }
-    
-    .modal-poster {
-        width: 260px;
-        padding-bottom: 10px;
-    }
-    
-    .modal-info {
-        font: 16px "Garamond";
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .imdb-icon {
-        height: 70px;
-        padding-bottom: 15px;
+        height: 35%;
     }
 }
 
@@ -161,57 +91,13 @@
     }
 
     .modal-main {
-        width: 315px;
-    }
-
-    .modal-header {
-        font: 22px "Garamond";
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .modal-poster {
-        width: 240px;
-        padding-bottom: 10px;
-    }
-    
-    .modal-info {
-        font: 14px "Garamond";
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .imdb-icon {
-        height: 70px;
-        padding-bottom: 15px;
+        height: 32%;
     }
 }
 
 @media only screen and (max-width: 360px) {
     .modal-main {
-        width: 300px;
-    }
-
-    .modal-header {
-        font: 20px "Garamond";
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .modal-poster {
-        width: 220px;
-        padding-bottom: 5px;
-    }
-    
-    .modal-info {
-        font: 12px "Garamond";
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .imdb-icon {
-        height: 60px;
-        padding-bottom: 15px;
+        height: 31%;
     }
 }
 
@@ -221,56 +107,12 @@
     }
 
     .modal-main {
-        width: 280px;
-    }
-
-    .modal-header {
-        font: 18px "Garamond";
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .modal-poster {
-        width: 200px;
-        padding-bottom: 5px;
-    }
-    
-    .modal-info {
-        font: 10px "Garamond";
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .imdb-icon {
-        height: 50px;
-        padding-bottom: 12px;
+        height: 29%;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .modal-main {
-        width: 260px;
-    }
-
-    .modal-header {
-        font: 15px "Garamond";
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .modal-poster {
-        width: 190px;
-        padding-bottom: 5px;
-    }
-    
-    .modal-info {
-        font: 10px "Garamond";
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .imdb-icon {
-        height: 45px;
-        padding-bottom: 12px;
+        height: 28%;
     }
 }

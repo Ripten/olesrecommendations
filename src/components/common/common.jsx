@@ -130,7 +130,11 @@ export function createTag(tag, title) {
     
     if (tag === "BLACK_AND_WHITE") {
         formatted = "BlackAndWhite";
-    } else {
+    }
+    else if (tag === "KID_FRIENDLY") {
+        formatted = "Kid friendly";
+    } 
+    else {
         formatted = tag.charAt(0) + tag.substring(1).toLowerCase();
     }
 

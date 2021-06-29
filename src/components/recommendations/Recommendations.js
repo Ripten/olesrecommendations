@@ -33,7 +33,7 @@ class Recommendations extends Component {
                     if (this.state.films.length > 0 && this.state.films.length < 21)
                         return <div>
                             <div className="result">
-                                <div>{this.state.films.length} suitable recommendations found!</div>
+                                <div>{this.state.films.length} suitable recommendation(s) found!</div>
                                 <div>Refresh the page or click on the banner to start over</div>
                             </div>
                             {this.state.films.map((film) => (
@@ -45,7 +45,7 @@ class Recommendations extends Component {
                     else if (this.state.films.length > 20)
                         return <div className="table-content">
                         <div className="result-table">
-                                <div>{this.state.films.length} suitable recommendations found!</div>
+                                <div>{this.state.films.length} suitable recommendation(s) found!</div>
                                 <div>Refresh the page or click on the banner to start over</div>
                         </div>
                         <table align="center">

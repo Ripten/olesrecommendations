@@ -102,7 +102,7 @@ export const otherFilms =
       "language": "English",
       "year": 1994,
       "imdbLink": "https://www.imdb.com/title/tt0110912/",
-      "tags": ["CRIME", "CLASSIC", "THRILLER"]
+      "tags": ["CRIME", "THRILLER"]
     },
     {
       "title": "Ran",
@@ -110,7 +110,7 @@ export const otherFilms =
       "language": "Japanese",
       "year": 1985,
       "imdbLink": "https://www.imdb.com/title/tt0089881/",
-      "tags": ["CLASSIC", "WAR", "SAMURAI"]
+      "tags": ["CLASSIC", "SAMURAI"]
     },
     {
       "title": "Rush Hour",

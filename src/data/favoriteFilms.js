@@ -86,7 +86,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1987,
       "imdbLink": "https://www.imdb.com/title/tt0093058/",
-      "tags": ["CLASSIC", "WAR"]
+      "tags": ["WAR"]
     },
     {
       "title": "Get Out",
@@ -102,7 +102,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 1988,
       "imdbLink": "https://www.imdb.com/title/tt0095327/",
-      "tags": ["SAD", "CLASSIC", "ANIMATION", "WAR", "DARK"]
+      "tags": ["SAD", "ANIMATION", "WAR", "DARK"]
     },
     {
       "title": "In The Mood For Love",
@@ -246,7 +246,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1992,
       "imdbLink": "https://www.imdb.com/title/tt0105236/",
-      "tags": ["THRILLER", "CLASSIC", "CRIME"]
+      "tags": ["THRILLER", "CRIME"]
     },
     {
       "title": "Rocky",
@@ -310,7 +310,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1994,
       "imdbLink": "https://www.imdb.com/title/tt0111161/",
-      "tags": ["CLASSIC"]
+      "tags": ["CRIME"]
     },
     {
       "title": "The Spy Who Loved Me",

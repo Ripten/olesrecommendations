@@ -89,6 +89,14 @@ export const otherFilms =
       "tags": ["HORROR"]
     },
     {
+      "title": "Misery",
+      "star": false,
+      "language": "English",
+      "year": 1990,
+      "imdbLink": "https://www.imdb.com/title/tt0100157/",
+      "tags": ["THRILLER"]
+    },
+    {
       "title": "Pulp Fiction",
       "star": false,
       "language": "English",
@@ -182,7 +190,7 @@ export const otherFilms =
       "language": "English",
       "year": 1991,
       "imdbLink": "https://www.imdb.com/title/tt0102926/",
-      "tags": ["CRIME", "CLASSIC"]
+      "tags": ["CRIME", "CLASSIC", "THRILLER"]
     },
     {
       "title": "The Two Towers",
@@ -231,6 +239,22 @@ export const otherFilms =
       "year": 2014,
       "imdbLink": "https://www.imdb.com/title/tt2582802/",
       "tags": ["SPORTS"]
+    },
+    {
+      "title": "Wolf Children",
+      "star": false,
+      "language": "Japanese",
+      "year": 2012,
+      "imdbLink": "https://www.imdb.com/title/tt2140203/",
+      "tags": ["ANIMATION", "KID_FRIENDLY", "SAD"]
+    },
+    {
+      "title": "Zombieland",
+      "star": false,
+      "language": "English",
+      "year": 2009,
+      "imdbLink": "https://www.imdb.com/title/tt1156398/",
+      "tags": ["ZOMBIE", "COMEDY"]
     }
 ]
 

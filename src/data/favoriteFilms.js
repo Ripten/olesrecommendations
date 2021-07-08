@@ -238,7 +238,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 1997,
       "imdbLink": "https://www.imdb.com/title/tt0119698/",
-      "tags": ["ANIMATION", "ADVENTURE", "KID_FRIENDLY"]
+      "tags": ["ANIMATION", "ADVENTURE"]
     },
     {
       "title": "Reservoir Dogs",

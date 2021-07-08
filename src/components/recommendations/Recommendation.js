@@ -23,7 +23,7 @@ class Recommendation extends Component {
                         return (<div className="recommendation-div">
                                     <h1 className="header">{this.props.props.title}</h1>
                                     <div className="poster-div">
-                                        <a href={this.props.props.imdbLink}>
+                                        <a href={this.props.props.imdbLink} target="_blank" rel="noopener noreferrer">
                                             <img className="poster" src={filmData.Poster} alt="poster" />
                                         </a>
                                     </div>

@@ -30,7 +30,7 @@ class Recommendations extends Component {
             <div>
                 <Modal show={this.state.show} handleClose={this.hideModal} data={this.state.data} ></Modal>
                 {(() => { 
-                    if (this.state.films.length > 0 && this.state.films.length < 21)
+                    if (this.state.films.length > 0 && this.state.films.length < 31)
                         return <div>
                             <div className="result">
                                 <div>{this.state.films.length} suitable recommendation(s) found!</div>
@@ -42,7 +42,7 @@ class Recommendations extends Component {
                                 </div>
                             ))}
                         </div>
-                    else if (this.state.films.length > 20)
+                    else if (this.state.films.length > 30)
                         return <div className="table-content">
                         <div className="result-table">
                                 <div>{this.state.films.length} suitable recommendation(s) found!</div>

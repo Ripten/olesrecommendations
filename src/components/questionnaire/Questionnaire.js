@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Start from './Start.js';
 import LanguagePreference from './LanguagePreference.js';
 import ColorPreference from './ColorPreference.js';
 import LiveActionPreference from './LiveActionPreference.js';
@@ -13,7 +14,8 @@ class Questionnaire extends Component {
     super(props);
 
     this.state = {
-      languageQuestion: true,
+      startPage: true,
+      languageQuestion: false,
       colorQuestion: false,
       liveActionQuestion: false,
       genreQuestion: false,
@@ -30,6 +32,7 @@ class Questionnaire extends Component {
     const { languageQuestion } = this.state;
   
     this.setState({
+      startPage: false,
       languageQuestion: !languageQuestion,
       colorQuestion: false,
       liveActionQuestion: false,
@@ -42,6 +45,7 @@ class Questionnaire extends Component {
     const { colorQuestion } = this.state;
   
     this.setState({
+      startPage: false,
       languageQuestion: false,
       colorQuestion: !colorQuestion,
       liveActionQuestion: false,
@@ -54,6 +58,7 @@ class Questionnaire extends Component {
     const { liveActionQuestion } = this.state;
   
     this.setState({
+      startPage: false,
       languageQuestion: false,
       colorQuestion: false,
       liveActionQuestion: !liveActionQuestion,
@@ -66,6 +71,7 @@ class Questionnaire extends Component {
     const { genreQuestion } = this.state;
   
     this.setState({
+      startPage: false,
       languageQuestion: false,
       colorQuestion: false,
       liveActionQuestion: false,
@@ -78,6 +84,7 @@ class Questionnaire extends Component {
     const { showRecommendations } = this.state;
   
     this.setState({
+      startPage: false,
       languageQuestion: false,
       colorQuestion: false,
       liveActionQuestion: false,
@@ -155,7 +162,9 @@ class Questionnaire extends Component {
     return (
       <div className="questionnaire-content">
          {(() => {
-            if (this.state.languageQuestion)
+            if (this.state.startPage)
+              return <Start showLanguageQuestion={this.showLanguageQuestion} />
+            else if (this.state.languageQuestion)
               return <LanguagePreference 
                       setEnglishOnly={this.setEnglishOnly} 
                       setForeignOnly={this.setForeignOnly} 

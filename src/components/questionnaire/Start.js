@@ -6,12 +6,13 @@ class Start extends Component {
       return (
         <div className="questionnaire-content">
             <div className="start-div">
-                <button className="start-button" onClick={this.props.showLanguageQuestion}>Get started!</button>
+                <p className="intro">Get film recommendations based on your current mood!</p>
+                <button className="start-button" onClick={this.props.showLanguageQuestion}>START</button>
                 <div className="faq-div">
                     <p className="faq-header">FAQ</p>
                     <p className="faq-point">How does it work?</p>
                     <p className="faq-description">
-                        You quite simply answer 4 quick questions. In the last question I recommend that you pick 1 or 2 genres. 
+                        You simply answer 4 quick questions. In the last question I recommend that you pick 1 or 2 genres. 
                         If you pick 0 then you will probably get a lot of recommendations, which kind of defeats the purpose. The 
                         same applies if you pick more than 3 genres. <br/>Example:<br/> if you pick 'Action', then you will <i>only</i> get  
                         action films. If you pick 'Action' and 'Horror', then you will get both action films <i>and</i> horror films.

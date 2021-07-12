@@ -4,6 +4,14 @@
     padding-bottom: 70px;
 }
 
+.intro {
+    margin-bottom: 90px;
+    font: 45px "Garamond";
+    color:  #f5ebd0;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
 .start-div {
     text-align: center;
     margin-bottom: 70px;
@@ -459,6 +467,11 @@
 }
 
 @media only screen and (max-width: 620px) {
+    .intro {
+        margin-bottom: 80px;
+        font: 40px "Garamond";
+    }
+
     .faq-div {
         margin-top: 30px;
     }
@@ -508,6 +521,11 @@
 
 
 @media only screen and (max-width: 550px) {
+    .intro {
+        margin-bottom: 60px;
+        font: 30px "Garamond";
+    }
+
     .start-div {
         padding-top: 35px;
     }
@@ -702,6 +720,11 @@
 }
 
 @media only screen and (max-width: 390px) {
+    .intro {
+        margin-bottom: 40px;
+        font: 25px "Garamond";
+    }
+
     .start-div {
         padding-top: 50px;
     }
@@ -837,6 +860,11 @@
 }
 
 @media only screen and (max-width: 340px) {
+    .intro {
+        margin-bottom: 30px;
+        font: 20px "Garamond";
+    }
+
     .choice-div {
         font: 13px "Garamond";
     }

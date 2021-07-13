@@ -30,7 +30,7 @@ export const favoriteFilms =
       "language": "Korean",
       "year": 2006,
       "imdbLink": "https://www.imdb.com/title/tt0821442/",
-      "tags": ["THRILLER", "CRIME"]
+      "tags": ["THRILLER", "CRIME", "VIOLENT", "GANGSTER"]
     },
     {
       "title": "A Tale Of Two Sisters",
@@ -54,7 +54,7 @@ export const favoriteFilms =
       "language": "Korean",
       "year": 2018,
       "imdbLink": "https://www.imdb.com/title/tt7282468/",
-      "tags": ["DEEP"]
+      "tags": ["DEEP", "UNIQUE"]
     },
     {
       "title": "Citizen Kane",
@@ -78,7 +78,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 2012,
       "imdbLink": "https://www.imdb.com/title/tt1853728/",
-      "tags": ["WESTERN", "COMEDY"]
+      "tags": ["WESTERN", "COMEDY", "VIOLENT"]
     },
     {
       "title": "Full Metal Jacket",
@@ -86,7 +86,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1987,
       "imdbLink": "https://www.imdb.com/title/tt0093058/",
-      "tags": ["WAR"]
+      "tags": ["WAR", "UNIQUE"]
     },
     {
       "title": "Get Out",
@@ -110,7 +110,7 @@ export const favoriteFilms =
       "language": "Cantonese",
       "year": 2000,
       "imdbLink": "https://www.imdb.com/title/tt0118694/",
-      "tags": ["ROMANCE", "DEEP"]
+      "tags": ["ROMANCE", "DEEP", "UNIQUE"]
     },
     {
       "title": "Inglourious Basterds",
@@ -118,7 +118,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 2009,
       "imdbLink": "https://www.imdb.com/title/tt0361748/",
-      "tags": ["WAR", "COMEDY"]
+      "tags": ["WAR", "COMEDY", "VIOLENT"]
     },
     {
       "title": "Jiro Dreams of Sushi",
@@ -158,7 +158,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 2001,
       "imdbLink": "https://www.imdb.com/title/tt0291350/",
-      "tags": ["DEEP", "ANIMATION"]
+      "tags": ["DEEP", "ANIMATION", "UNIQUE"]
     },
     {
       "title": "Nightcrawler",
@@ -190,7 +190,7 @@ export const favoriteFilms =
       "language": "Korean",
       "year": 2003,
       "imdbLink": "https://www.imdb.com/title/tt0364569/",
-      "tags": ["DEEP", "THRILLER", "CRIME", "DARK"]
+      "tags": ["DEEP", "THRILLER", "CRIME", "DARK", "VIOLENT"]
     },
     {
       "title": "Paprika",
@@ -198,7 +198,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 2006,
       "imdbLink": "https://www.imdb.com/title/tt0851578/",
-      "tags": ["DEEP", "ANIMATION", "SCIFI"]
+      "tags": ["DEEP", "ANIMATION", "SCIFI", "UNIQUE"]
     },
     {
       "title": "Parasite",
@@ -206,7 +206,7 @@ export const favoriteFilms =
       "language": "Korean",
       "year": 2019,
       "imdbLink": "https://www.imdb.com/title/tt6751668/",
-      "tags": ["DEEP"]
+      "tags": ["DEEP", "UNIQUE"]
     },
     {
       "title": "Perfect Blue",
@@ -222,7 +222,7 @@ export const favoriteFilms =
       "language": "Swedish",
       "year": 1966,
       "imdbLink": "https://www.imdb.com/title/tt0060827/",
-      "tags": ["DEEP", "BLACK_AND_WHITE", "CLASSIC"]
+      "tags": ["DEEP", "BLACK_AND_WHITE", "CLASSIC", "UNIQUE"]
     },
     {
       "title": "Porco Rosso",
@@ -246,7 +246,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1992,
       "imdbLink": "https://www.imdb.com/title/tt0105236/",
-      "tags": ["THRILLER", "CRIME"]
+      "tags": ["THRILLER", "CRIME", "GANGSTER", "VIOLENT"]
     },
     {
       "title": "Rocky",
@@ -278,7 +278,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 2001,
       "imdbLink": "https://www.imdb.com/title/tt0245429/",
-      "tags": ["DEEP", "ADVENTURE", "ANIMATION", "KID_FRIENDLY"]
+      "tags": ["ADVENTURE", "ANIMATION", "KID_FRIENDLY"]
     },
     {
       "title": "The Empire Strikes Back",
@@ -326,7 +326,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1982,
       "imdbLink": "https://www.imdb.com/title/tt0084787/",
-      "tags": ["HORROR", "SCIFI", "CLASSIC"]
+      "tags": ["HORROR", "SCIFI", "CLASSIC", "VIOLENT"]
     },
     {
       "title": "The Truman Show",
@@ -350,7 +350,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1962,
       "imdbLink": "https://www.imdb.com/title/tt0056592/",
-      "tags": ["CLASSIC", "BLACK_AND_WHITE"]
+      "tags": ["CLASSIC", "BLACK_AND_WHITE", "CRIME"]
     },
     {
       "title": "Tokyo Godfathers",
@@ -358,7 +358,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 2003,
       "imdbLink": "https://www.imdb.com/title/tt0388473/",
-      "tags": ["ANIMATION"]
+      "tags": ["ANIMATION", "UNIQUE"]
     },
     {
       "title": "Unbreakable",
@@ -374,7 +374,7 @@ export const favoriteFilms =
       "language": "Swedish",
       "year": 1957,
       "imdbLink": "https://www.imdb.com/title/tt0050986/",
-      "tags": ["CLASSIC", "BLACK_AND_WHITE", "DEEP"]
+      "tags": ["CLASSIC", "BLACK_AND_WHITE", "DEEP", "UNIQUE"]
     }
 ]
 

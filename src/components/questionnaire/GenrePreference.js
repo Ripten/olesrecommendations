@@ -17,14 +17,18 @@ class GenrePreference extends Component {
       deep: false,
       dark: false,
       documentary: false,
+      gangster: false,
       horror: false,
       kidfriendly: false,
+      music: false,
       romance: false,
       sad: false,
       samurai: false,
       scifi: false,
       sports: false,
       thriller: false,
+      unique: false,
+      violent: false,
       war: false,
       western: false,
       zombie: false
@@ -60,14 +64,18 @@ class GenrePreference extends Component {
     if (this.state.dark === true) { tags.push("DARK"); }
     if (this.state.deep === true) { tags.push("DEEP"); }
     if (this.state.documentary === true) { tags.push("DOCUMENTARY"); }
+    if (this.state.gangster === true) { tags.push("GANGSTER"); }
     if (this.state.horror === true) { tags.push("HORROR"); }
     if (this.state.kidfriendly === true) { tags.push("KID_FRIENDLY"); }
+    if (this.state.music === true) { tags.push("MUSIC"); }
     if (this.state.romance === true) { tags.push("ROMANCE"); }
     if (this.state.sad === true) { tags.push("SAD"); }
     if (this.state.samurai === true) { tags.push("SAMURAI"); }
     if (this.state.scifi === true) { tags.push("SCIFI"); }
     if (this.state.sports === true) { tags.push("SPORTS"); }
     if (this.state.thriller === true) { tags.push("THRILLER"); }
+    if (this.state.unique === true) { tags.push("UNIQUE"); }
+    if (this.state.violent === true) { tags.push("VIOLENT"); }
     if (this.state.war === true) { tags.push("WAR"); }
     if (this.state.western === true) { tags.push("WESTERN"); }
     if (this.state.zombie === true) { tags.push("ZOMBIE"); }
@@ -96,18 +104,24 @@ class GenrePreference extends Component {
         </div>
         <div className="genre-row">
           <button className="genre-button" id="documentary" onClick={() => this.toggle('documentary')}>Documentary</button>
+          <button className="genre-button" id="gangster" onClick={() => this.toggle('gangster')}>Gangster</button>
           <button className="genre-button" id="horror" onClick={() => this.toggle('horror')}>Horror</button>
           <button className="genre-button" id="kidfriendly" onClick={() => this.toggle('kidfriendly')}>Kid friendly</button>
-          <button className="genre-button" id="romance" onClick={() => this.toggle('romance')}>Romance</button>
         </div>
         <div className="genre-row">
+          <button className="genre-button" id="music" onClick={() => this.toggle('music')}>Music</button>
+          <button className="genre-button" id="romance" onClick={() => this.toggle('romance')}>Romance</button>
           <button className="genre-button" id="sad" onClick={() => this.toggle('sad')}>Sad</button>
           <button className="genre-button" id="samurai" onClick={() => this.toggle('samurai')}>Samurai</button>
-          <button className="genre-button" id="scifi" onClick={() => this.toggle('scifi')}>Scifi</button>
-          <button className="genre-button" id="sports" onClick={() => this.toggle('sports')}>Sports</button>
         </div>
         <div className="genre-row">
+          <button className="genre-button" id="scifi" onClick={() => this.toggle('scifi')}>Scifi</button>
+          <button className="genre-button" id="sports" onClick={() => this.toggle('sports')}>Sports</button>
           <button className="genre-button" id="thriller" onClick={() => this.toggle('thriller')}>Thriller</button>
+          <button className="genre-button" id="unique" onClick={() => this.toggle('unique')}>Unique</button>
+        </div>
+        <div className="genre-row">
+          <button className="genre-button" id="violent" onClick={() => this.toggle('violent')}>Violent</button>
           <button className="genre-button" id="war" onClick={() => this.toggle('war')}>War</button>
           <button className="genre-button" id="western" onClick={() => this.toggle('western')}>Western</button>
           <button className="genre-button" id="zombie" onClick={() => this.toggle('zombie')}>Zombie</button>

@@ -32,6 +32,11 @@ class Start extends Component {
                         Films that have a lot of depth, basically. They can be quite abstract and are definitely not everyone's cup of tea. 
                         Bergman's <i>Persona</i> is a good example. Avoid this genre if you want something that's easy to follow.
                     </p>
+                    <p className="faq-point">What is the 'unique' genre?</p>
+                    <p className="faq-description">
+                        Films that are a bit different. The typical viewer might find these films to be quite odd. There's definitely an  
+                        overlap between this genre and the 'deep' genre.
+                    </p>
                     <p className="faq-point">Why does the result sometimes look different?</p>
                     <p className="faq-description">
                         If you get more than 30 recommendations, then you will get a compressed list view instead of big, beautiful blocks. 

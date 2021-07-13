@@ -6,7 +6,7 @@ export const otherFilms =
       "language": "English",
       "year": 1957,
       "imdbLink": "https://www.imdb.com/title/tt0050083/",
-      "tags": ["CLASSIC", "BLACK_AND_WHITE"]
+      "tags": ["CLASSIC", "BLACK_AND_WHITE", "CRIME"]
     },
     {
       "title": "Casino Royale",
@@ -14,7 +14,7 @@ export const otherFilms =
       "language": "English",
       "year": 2006,
       "imdbLink": "https://www.imdb.com/title/tt0381061/",
-      "tags": ["ACTION"]
+      "tags": ["ACTION", "VIOLENT"]
     },
     {
       "title": "Castaway On The Moon",
@@ -22,7 +22,7 @@ export const otherFilms =
       "language": "Korean",
       "year": 2009,
       "imdbLink": "https://www.imdb.com/title/tt1499666/",
-      "tags": ["ROMANCE"]
+      "tags": ["ROMANCE", "UNIQUE"]
     },
     {
       "title": "Children Of Men",
@@ -38,7 +38,7 @@ export const otherFilms =
       "language": "English",
       "year": 2017,
       "imdbLink": "https://www.imdb.com/title/tt2380307/",
-      "tags": ["ANIMATION", "SAD", "ADVENTURE", "KID_FRIENDLY"]
+      "tags": ["ANIMATION", "SAD", "ADVENTURE", "KID_FRIENDLY", "MUSIC"]
     },
     {
       "title": "Dunkirk",
@@ -62,7 +62,7 @@ export const otherFilms =
       "language": "Japanese",
       "year": 1997,
       "imdbLink": "https://www.imdb.com/title/tt0119250/",
-      "tags": ["SAD", "CRIME"]
+      "tags": ["SAD", "CRIME", "GANGSTER"]
     },
     {
       "title": "Inception",
@@ -78,7 +78,7 @@ export const otherFilms =
       "language": "Danish",
       "year": 2012,
       "imdbLink": "https://www.imdb.com/title/tt2106476/",
-      "tags": ["SAD", "DARK"]
+      "tags": ["SAD", "DARK", "CRIME"]
     },
     {
       "title": "Låt den rätte komma in",
@@ -102,7 +102,7 @@ export const otherFilms =
       "language": "English",
       "year": 1994,
       "imdbLink": "https://www.imdb.com/title/tt0110912/",
-      "tags": ["CRIME", "THRILLER"]
+      "tags": ["GANGSTER", "THRILLER", "VIOLENT"]
     },
     {
       "title": "Ran",
@@ -158,7 +158,7 @@ export const otherFilms =
       "language": "English",
       "year": 1998,
       "imdbLink": "https://www.imdb.com/title/tt0120794/",
-      "tags": ["ANIMATION"]
+      "tags": ["ANIMATION", "MUSIC"]
     },
     {
       "title": "The Return of the King",
@@ -174,7 +174,7 @@ export const otherFilms =
       "language": "Swedish",
       "year": 1957,
       "imdbLink": "https://www.imdb.com/title/tt0050976/",
-      "tags": ["CLASSIC", "BLACK_AND_WHITE", "DEEP"]
+      "tags": ["CLASSIC", "BLACK_AND_WHITE", "DEEP", "UNIQUE"]
     },
     {
       "title": "The Shining",
@@ -190,7 +190,7 @@ export const otherFilms =
       "language": "English",
       "year": 1991,
       "imdbLink": "https://www.imdb.com/title/tt0102926/",
-      "tags": ["CRIME", "CLASSIC", "THRILLER"]
+      "tags": ["CRIME", "THRILLER"]
     },
     {
       "title": "The Two Towers",
@@ -238,7 +238,7 @@ export const otherFilms =
       "language": "English",
       "year": 2014,
       "imdbLink": "https://www.imdb.com/title/tt2582802/",
-      "tags": ["SPORTS"]
+      "tags": ["MUSIC"]
     },
     {
       "title": "Wolf Children",

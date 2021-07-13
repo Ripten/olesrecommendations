@@ -15,7 +15,7 @@ class Start extends Component {
                         You simply answer 4 quick questions. In the last question I recommend that you pick 1 or 2 genres. 
                         If you pick 0 then you will probably get a lot of recommendations, which kind of defeats the purpose. The 
                         same applies if you pick more than 3 genres. <br/>Example:<br/> if you pick 'Action', then you will <i>only</i> get  
-                        action films. If you pick 'Action' and 'Horror', then you will get both action films <i>and</i> horror films.
+                        action films. If you pick 'Action' and 'Horror', then you will get both action <i>and</i> horror films.
                     </p>
                     <p className="faq-point">Where is the 'drama' genre?</p>
                     <p className="faq-description">

@@ -6,7 +6,10 @@
 
 .intro {
     margin-bottom: 90px;
-    font: 45px "Garamond";
+    font: 50px "Garamond";
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: left;
     color:  #f5ebd0;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
@@ -225,6 +228,11 @@
         margin-right: 29%;
     }
 
+    .intro {
+        margin-right: 29%;
+        margin-left: 29%;
+    }
+
     .faq-div {
         margin-left: 29%;
         margin-right: 29%;
@@ -235,6 +243,11 @@
     .choice-div {
         margin-left: 26%;
         margin-right: 26%;
+    }
+
+    .intro {
+        margin-right: 26%;
+        margin-left: 26%;
     }
 
     .faq-div {
@@ -249,6 +262,11 @@
         margin-right: 24%;
     }
 
+    .intro {
+        margin-right: 24%;
+        margin-left: 24%;
+    }
+
     .faq-div {
         margin-left: 24%;
         margin-right: 24%;
@@ -259,6 +277,11 @@
     .choice-div {
         margin-left: 22%;
         margin-right: 22%;
+    }
+
+    .intro {
+        margin-right: 22%;
+        margin-left: 22%;
     }
 
     .faq-div {
@@ -273,6 +296,11 @@
         margin-right: 20%;
     }
 
+    .intro {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
     .faq-div {
         margin-left: 20%;
         margin-right: 20%;
@@ -283,6 +311,11 @@
     .choice-div {
         margin-left: 17%;
         margin-right: 17%;
+    }
+
+    .intro {
+        margin-right: 17%;
+        margin-left: 17%;
     }
 
     .faq-div {
@@ -316,6 +349,11 @@
     .choice-div {
         margin-left: 15%;
         margin-right: 15%;
+    }
+
+    .intro {
+        margin-right: 15%;
+        margin-left: 15%;
     }
 
     .faq-div {
@@ -361,6 +399,11 @@
         margin-right: 15%;
     }
 
+    .intro {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
     .faq-div {
         margin-left: 10%;
         margin-right: 10%;
@@ -398,6 +441,11 @@
 }
 
 @media only screen and (max-width: 750px) {
+    .intro {
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+
     .faq-div {
         margin-left: 6%;
         margin-right: 6%;
@@ -424,6 +472,11 @@
 @media only screen and (max-width: 700px) {
     .questionnaire-content {
         margin-top: 170px;
+    }
+
+    .intro {
+        margin-right: 1%;
+        margin-left: 1%;
     }
 
     .faq-div {

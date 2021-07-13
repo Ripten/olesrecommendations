@@ -182,7 +182,7 @@ export const otherFilms =
       "language": "English",
       "year": 1980,
       "imdbLink": "https://www.imdb.com/title/tt0081505/",
-      "tags": ["HORROR", "CLASSIC"]
+      "tags": ["HORROR", "THRILLER", "CLASSIC"]
     },
     {
       "title": "The Silence Of The Lambs",

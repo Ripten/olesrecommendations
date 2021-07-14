@@ -17,7 +17,7 @@ class ColorPreference extends Component {
         this.props.setNoColorPreference();
       }
       .bind(this),
-      200
+      100
     );
   }
 
@@ -34,7 +34,7 @@ class ColorPreference extends Component {
         this.props.setColorsOnly();
       }
       .bind(this),
-      200
+      100
     );
   }
 
@@ -51,7 +51,7 @@ class ColorPreference extends Component {
         this.props.setBlackAndWhiteOnly();
       }
       .bind(this),
-      200
+      100
     );
   }
 

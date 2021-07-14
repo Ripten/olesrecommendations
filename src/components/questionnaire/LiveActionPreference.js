@@ -17,7 +17,7 @@ class LiveActionPreference extends Component {
         this.props.setNoStylePreference();
       }
       .bind(this),
-      200
+      100
     );
   }
 
@@ -34,7 +34,7 @@ class LiveActionPreference extends Component {
         this.props.setLiveActionOnly();
       }
       .bind(this),
-      200
+      100
     );
   }
 
@@ -51,7 +51,7 @@ class LiveActionPreference extends Component {
         this.props.setAnimationOnly();
       }
       .bind(this),
-      200
+      100
     );
   }
 

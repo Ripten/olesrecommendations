@@ -17,7 +17,7 @@ class LanguagePreference extends Component {
         this.props.setNoLanguagePreference();
       }
       .bind(this),
-      200
+      100
     );
   }
 
@@ -34,7 +34,7 @@ class LanguagePreference extends Component {
         this.props.setEnglishOnly();
       }
       .bind(this),
-      200
+      100
     );
   }
 
@@ -51,7 +51,7 @@ class LanguagePreference extends Component {
         this.props.setForeignOnly();
       }
       .bind(this),
-      200
+      100
     );
   }
 

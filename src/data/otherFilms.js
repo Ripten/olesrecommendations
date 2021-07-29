@@ -97,6 +97,14 @@ export const otherFilms =
       "tags": ["THRILLER"]
     },
     {
+      "title": "My Octopus Teacher",
+      "star": false,
+      "language": "English",
+      "year": 2020,
+      "imdbLink": "https://www.imdb.com/title/tt12888462/",
+      "tags": ["DOCUMENTARY"]
+    },
+    {
       "title": "Pulp Fiction",
       "star": false,
       "language": "English",

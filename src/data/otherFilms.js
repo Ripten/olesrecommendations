@@ -33,6 +33,14 @@ export const otherFilms =
       "tags": ["SCIFI"]
     },
     {
+      "title": "Chinatown",
+      "star": false,
+      "language": "English",
+      "year": 1974,
+      "imdbLink": "https://www.imdb.com/title/tt0071315/",
+      "tags": ["CRIME", "THRILLER", "CLASSIC"]
+    },
+    {
       "title": "Coco",
       "star": false,
       "language": "English",

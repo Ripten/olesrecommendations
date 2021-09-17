@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/olesrecommendations/static/css/main.da19cf94.chunk.css",
-    "main.js": "/olesrecommendations/static/js/main.ee092857.chunk.js",
-    "main.js.map": "/olesrecommendations/static/js/main.ee092857.chunk.js.map",
+    "main.js": "/olesrecommendations/static/js/main.fe26debe.chunk.js",
+    "main.js.map": "/olesrecommendations/static/js/main.fe26debe.chunk.js.map",
     "runtime-main.js": "/olesrecommendations/static/js/runtime-main.8f83e21e.js",
     "runtime-main.js.map": "/olesrecommendations/static/js/runtime-main.8f83e21e.js.map",
     "static/js/2.3a97b694.chunk.js": "/olesrecommendations/static/js/2.3a97b694.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8f83e21e.js",
     "static/js/2.3a97b694.chunk.js",
     "static/css/main.da19cf94.chunk.css",
-    "static/js/main.ee092857.chunk.js"
+    "static/js/main.fe26debe.chunk.js"
   ]
 }

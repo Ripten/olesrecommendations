@@ -97,6 +97,14 @@ export const otherFilms =
       "tags": ["HORROR"]
     },
     {
+      "title": "Memories of Murder",
+      "star": false,
+      "language": "Korean",
+      "year": 2003,
+      "imdbLink": "https://www.imdb.com/title/tt0353969/",
+      "tags": ["CRIME", "THRILLER"]
+    },
+    {
       "title": "Misery",
       "star": false,
       "language": "English",

@@ -6,7 +6,7 @@ class Start extends Component {
       return (
         <div className="questionnaire-content">
             <div className="start-div">
-                <p className="intro">Get film recommendations based on your current mood!</p>
+                <p className="intro">Get film recommendations based on your current mood</p>
                 <button className="start-button" onClick={this.props.showLanguageQuestion}>START</button>
                 <div className="faq-div">
                     <p className="faq-header">FAQ</p>

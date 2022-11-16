@@ -9,6 +9,14 @@ export const otherFilms =
       "tags": ["CLASSIC", "BLACK_AND_WHITE", "CRIME"]
     },
     {
+      "title": "Broker",
+      "star": false,
+      "language": "Korean",
+      "year": 2022,
+      "imdbLink": "https://www.imdb.com/title/tt13056052/",
+      "tags": ["SAD"]
+    },
+    {
       "title": "Casino Royale",
       "star": false,
       "language": "English",

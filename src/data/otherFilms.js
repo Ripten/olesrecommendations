@@ -9,6 +9,14 @@ export const otherFilms =
       "tags": ["CLASSIC", "BLACK_AND_WHITE", "CRIME"]
     },
     {
+      "title": "A Hero",
+      "star": false,
+      "language": "Persian",
+      "year": 2021,
+      "imdbLink": "https://www.imdb.com/title/tt11777738/",
+      "tags": ["SAD", "CRIME"]
+    },
+    {
       "title": "Broker",
       "star": false,
       "language": "Korean",

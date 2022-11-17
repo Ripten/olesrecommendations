@@ -17,6 +17,14 @@ export const otherFilms =
       "tags": ["SAD", "CRIME"]
     },
     {
+      "title": "Battle Royale",
+      "star": false,
+      "language": "Japanese",
+      "year": 2000,
+      "imdbLink": "https://www.imdb.com/title/tt0266308/",
+      "tags": ["ACTION", "SCIFI"]
+    },
+    {
       "title": "Broker",
       "star": false,
       "language": "Korean",

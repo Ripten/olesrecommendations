@@ -58,7 +58,7 @@ class Start extends Component {
                     </p>
                     <p className="faq-point">How big is the library?</p>
                     <p className="faq-description">
-                        The library currently consists of 84 films.
+                        The library currently consists of 85 films.
                     </p>
                     <p className="faq-point">How can I view the whole library?</p>
                     <p className="faq-description">

@@ -113,6 +113,14 @@ export const otherFilms =
       "tags": ["SAD", "DARK", "CRIME"]
     },
     {
+      "title": "Jaws",
+      "star": false,
+      "language": "English",
+      "year": 1975,
+      "imdbLink": "https://www.imdb.com/title/tt0073195/",
+      "tags": ["THRILLER"]
+    },
+    {
       "title": "Låt den rätte komma in",
       "star": false,
       "language": "Swedish",

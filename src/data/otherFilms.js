@@ -65,6 +65,14 @@ export const otherFilms =
       "tags": ["CRIME", "THRILLER", "CLASSIC"]
     },
     {
+      "title": "Close",
+      "star": false,
+      "language": "French",
+      "year": 2022,
+      "imdbLink": "https://www.imdb.com/title/tt9660502/",
+      "tags": ["SAD"]
+    },
+    {
       "title": "Coco",
       "star": false,
       "language": "English",

@@ -6,7 +6,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 2010,
       "imdbLink": "https://www.imdb.com/title/tt1542344/",
-      "tags": ["BIOGRAPHY"]
+      "tags": ["BIOGRAPHY", "DRAMA"]
     },
     {
       "title": "28 Days Later",
@@ -54,7 +54,7 @@ export const favoriteFilms =
       "language": "Korean",
       "year": 2018,
       "imdbLink": "https://www.imdb.com/title/tt7282468/",
-      "tags": ["DEEP", "UNIQUE"]
+      "tags": ["DEEP", "UNIQUE", "DRAMA"]
     },
     {
       "title": "Citizen Kane",
@@ -62,7 +62,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1941,
       "imdbLink": "https://www.imdb.com/title/tt0033467/",
-      "tags": ["BLACK_AND_WHITE", "CLASSIC"]
+      "tags": ["BLACK_AND_WHITE", "CLASSIC", "DRAMA"]
     },
     {
       "title": "Coraline",
@@ -110,7 +110,7 @@ export const favoriteFilms =
       "language": "Cantonese",
       "year": 2000,
       "imdbLink": "https://www.imdb.com/title/tt0118694/",
-      "tags": ["ROMANCE", "DEEP", "UNIQUE"]
+      "tags": ["ROMANCE", "DEEP", "UNIQUE", "DRAMA"]
     },
     {
       "title": "Inglourious Basterds",
@@ -134,7 +134,7 @@ export const favoriteFilms =
       "language": "Korean",
       "year": 2000,
       "imdbLink": "https://www.imdb.com/title/tt0260991/",
-      "tags": ["WAR"]
+      "tags": ["WAR", "DRAMA"]
     },
     {
       "title": "Kikujiro",
@@ -142,7 +142,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 1999,
       "imdbLink": "https://www.imdb.com/title/tt0199683/",
-      "tags": ["SAD", "COMEDY"]
+      "tags": ["COMEDY", "DRAMA", "SAD"]
     },
     {
       "title": "Lost in Translation",
@@ -150,7 +150,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 2003,
       "imdbLink": "https://www.imdb.com/title/tt0335266/",
-      "tags": ["ROMANCE"]
+      "tags": ["ROMANCE", "DRAMA"]
     },
     {
       "title": "Millennium Actress",
@@ -158,7 +158,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 2001,
       "imdbLink": "https://www.imdb.com/title/tt0291350/",
-      "tags": ["DEEP", "ANIMATION", "UNIQUE"]
+      "tags": ["DEEP", "ANIMATION", "UNIQUE", "DRAMA"]
     },
     {
       "title": "Nightcrawler",
@@ -182,7 +182,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 2008,
       "imdbLink": "https://www.imdb.com/title/tt1069238/",
-      "tags": ["SAD"]
+      "tags": ["SAD", "DRAMA"]
     },
     {
       "title": "Oldboy",
@@ -206,7 +206,7 @@ export const favoriteFilms =
       "language": "Korean",
       "year": 2019,
       "imdbLink": "https://www.imdb.com/title/tt6751668/",
-      "tags": ["DEEP", "UNIQUE"]
+      "tags": ["DEEP", "UNIQUE", "DRAMA"]
     },
     {
       "title": "Perfect Blue",
@@ -222,7 +222,7 @@ export const favoriteFilms =
       "language": "Swedish",
       "year": 1966,
       "imdbLink": "https://www.imdb.com/title/tt0060827/",
-      "tags": ["DEEP", "BLACK_AND_WHITE", "CLASSIC", "UNIQUE"]
+      "tags": ["DEEP", "BLACK_AND_WHITE", "CLASSIC", "UNIQUE", "DRAMA"]
     },
     {
       "title": "Porco Rosso",
@@ -254,7 +254,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1976,
       "imdbLink": "https://www.imdb.com/title/tt0075148/",
-      "tags": ["CLASSIC", "SPORTS"]
+      "tags": ["CLASSIC", "SPORTS", "DRAMA"]
     },
     {
       "title": "Rocky II",
@@ -262,7 +262,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1979,
       "imdbLink": "https://www.imdb.com/title/tt0079817/",
-      "tags": ["CLASSIC", "SPORTS"]
+      "tags": ["CLASSIC", "SPORTS", "DRAMA"]
     },
     {
       "title": "The Babadook",
@@ -310,7 +310,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 1994,
       "imdbLink": "https://www.imdb.com/title/tt0111161/",
-      "tags": ["CRIME"]
+      "tags": ["CRIME", "DRAMA"]
     },
     {
       "title": "The Spy Who Loved Me",
@@ -358,7 +358,7 @@ export const favoriteFilms =
       "language": "Japanese",
       "year": 2003,
       "imdbLink": "https://www.imdb.com/title/tt0388473/",
-      "tags": ["ANIMATION", "UNIQUE"]
+      "tags": ["ANIMATION", "UNIQUE", "DRAMA"]
     },
     {
       "title": "Unbreakable",
@@ -366,7 +366,7 @@ export const favoriteFilms =
       "language": "English",
       "year": 2000,
       "imdbLink": "https://www.imdb.com/title/tt0217869/",
-      "tags": ["THRILLER"]
+      "tags": ["THRILLER", "DRAMA"]
     },
     {
       "title": "Wild Strawberries",
@@ -374,7 +374,7 @@ export const favoriteFilms =
       "language": "Swedish",
       "year": 1957,
       "imdbLink": "https://www.imdb.com/title/tt0050986/",
-      "tags": ["CLASSIC", "BLACK_AND_WHITE", "DEEP", "UNIQUE"]
+      "tags": ["CLASSIC", "BLACK_AND_WHITE", "DEEP", "UNIQUE", "DRAMA"]
     }
 ]
 

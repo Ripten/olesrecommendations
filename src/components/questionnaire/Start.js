@@ -17,11 +17,6 @@ class Start extends Component {
                         same applies if you pick more than 3 genres. <br/>Example:<br/> if you pick 'Action', then you will <i>only</i> get  
                         action films. If you pick 'Action' and 'Horror', then you will get both action <i>and</i> horror films.
                     </p>
-                    <p className="faq-point">Where is the 'drama' genre?</p>
-                    <p className="faq-description">
-                        A very large number of my recommendations fit the drama genre. I've omitted this particular genre in order to get 
-                        a more precise filter that doesn't return half my library every time.
-                    </p>
                     <p className="faq-point">What is the 'dark' genre?</p>
                     <p className="faq-description">
                         Pretty much what the name suggests. Films with this genre are quite dark and should definitely be 

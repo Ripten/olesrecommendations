@@ -6,7 +6,7 @@ export const otherFilms =
       "language": "English",
       "year": 1957,
       "imdbLink": "https://www.imdb.com/title/tt0050083/",
-      "tags": ["CLASSIC", "BLACK_AND_WHITE", "CRIME"]
+      "tags": ["CLASSIC", "BLACK_AND_WHITE", "CRIME", "DRAMA"]
     },
     {
       "title": "A Hero",
@@ -14,7 +14,7 @@ export const otherFilms =
       "language": "Persian",
       "year": 2021,
       "imdbLink": "https://www.imdb.com/title/tt11777738/",
-      "tags": ["SAD", "CRIME"]
+      "tags": ["SAD", "CRIME", "DRAMA"]
     },
     {
       "title": "Battle Royale",
@@ -30,7 +30,7 @@ export const otherFilms =
       "language": "Korean",
       "year": 2022,
       "imdbLink": "https://www.imdb.com/title/tt13056052/",
-      "tags": ["SAD"]
+      "tags": ["DRAMA", "SAD"]
     },
     {
       "title": "Casino Royale",
@@ -46,7 +46,7 @@ export const otherFilms =
       "language": "Korean",
       "year": 2009,
       "imdbLink": "https://www.imdb.com/title/tt1499666/",
-      "tags": ["ROMANCE", "UNIQUE"]
+      "tags": ["ROMANCE","DRAMA", "UNIQUE"]
     },
     {
       "title": "Children Of Men",
@@ -70,7 +70,7 @@ export const otherFilms =
       "language": "French",
       "year": 2022,
       "imdbLink": "https://www.imdb.com/title/tt9660502/",
-      "tags": ["SAD"]
+      "tags": ["SAD", "DRAMA"]
     },
     {
       "title": "Coco",
@@ -78,7 +78,7 @@ export const otherFilms =
       "language": "English",
       "year": 2017,
       "imdbLink": "https://www.imdb.com/title/tt2380307/",
-      "tags": ["ANIMATION", "SAD", "ADVENTURE", "KID_FRIENDLY", "MUSIC"]
+      "tags": ["ANIMATION", "SAD", "ADVENTURE", "KID_FRIENDLY"]
     },
     {
       "title": "Dunkirk",
@@ -102,7 +102,7 @@ export const otherFilms =
       "language": "Japanese",
       "year": 1997,
       "imdbLink": "https://www.imdb.com/title/tt0119250/",
-      "tags": ["SAD", "CRIME", "GANGSTER"]
+      "tags": ["SAD", "CRIME", "GANGSTER", "DRAMA"]
     },
     {
       "title": "Inception",
@@ -118,7 +118,7 @@ export const otherFilms =
       "language": "Danish",
       "year": 2012,
       "imdbLink": "https://www.imdb.com/title/tt2106476/",
-      "tags": ["SAD", "DARK", "CRIME"]
+      "tags": ["DRAMA", "SAD", "DARK", "CRIME"]
     },
     {
       "title": "Jaws",
@@ -222,7 +222,7 @@ export const otherFilms =
       "language": "English",
       "year": 1998,
       "imdbLink": "https://www.imdb.com/title/tt0120794/",
-      "tags": ["ANIMATION", "MUSIC"]
+      "tags": ["ANIMATION", "DRAMA"]
     },
     {
       "title": "The Return of the King",
@@ -238,7 +238,7 @@ export const otherFilms =
       "language": "Swedish",
       "year": 1957,
       "imdbLink": "https://www.imdb.com/title/tt0050976/",
-      "tags": ["CLASSIC", "BLACK_AND_WHITE", "DEEP", "UNIQUE"]
+      "tags": ["CLASSIC", "BLACK_AND_WHITE", "DRAMA", "DEEP", "UNIQUE"]
     },
     {
       "title": "The Shining",
@@ -286,7 +286,7 @@ export const otherFilms =
       "language": "English",
       "year": 1958,
       "imdbLink": "https://www.imdb.com/title/tt0052357/",
-      "tags": ["CLASSIC", "CRIME", "DEEP", "ROMANCE"]
+      "tags": ["CLASSIC", "DRAMA", "CRIME", "DEEP", "ROMANCE"]
     },
     {
       "title": "WALL-E",
@@ -302,7 +302,7 @@ export const otherFilms =
       "language": "English",
       "year": 2014,
       "imdbLink": "https://www.imdb.com/title/tt2582802/",
-      "tags": ["MUSIC"]
+      "tags": ["DRAMA"]
     },
     {
       "title": "Wolf Children",

@@ -17,10 +17,10 @@ class GenrePreference extends Component {
       deep: false,
       dark: false,
       documentary: false,
+      drama: false,
       gangster: false,
       horror: false,
       kidfriendly: false,
-      music: false,
       romance: false,
       sad: false,
       samurai: false,
@@ -64,10 +64,10 @@ class GenrePreference extends Component {
     if (this.state.dark === true) { tags.push("DARK"); }
     if (this.state.deep === true) { tags.push("DEEP"); }
     if (this.state.documentary === true) { tags.push("DOCUMENTARY"); }
+    if (this.state.drama === true) { tags.push("DRAMA"); }
     if (this.state.gangster === true) { tags.push("GANGSTER"); }
     if (this.state.horror === true) { tags.push("HORROR"); }
     if (this.state.kidfriendly === true) { tags.push("KID_FRIENDLY"); }
-    if (this.state.music === true) { tags.push("MUSIC"); }
     if (this.state.romance === true) { tags.push("ROMANCE"); }
     if (this.state.sad === true) { tags.push("SAD"); }
     if (this.state.samurai === true) { tags.push("SAMURAI"); }
@@ -104,12 +104,12 @@ class GenrePreference extends Component {
         </div>
         <div className="genre-row">
           <button className="genre-button" id="documentary" onClick={() => this.toggle('documentary')}>Documentary</button>
+          <button className="genre-button" id="drama" onClick={() => this.toggle('drama')}>Drama</button>
           <button className="genre-button" id="gangster" onClick={() => this.toggle('gangster')}>Gangster</button>
           <button className="genre-button" id="horror" onClick={() => this.toggle('horror')}>Horror</button>
-          <button className="genre-button" id="kidfriendly" onClick={() => this.toggle('kidfriendly')}>Kid friendly</button>
         </div>
         <div className="genre-row">
-          <button className="genre-button" id="music" onClick={() => this.toggle('music')}>Music</button>
+          <button className="genre-button" id="kidfriendly" onClick={() => this.toggle('kidfriendly')}>Kid friendly</button>
           <button className="genre-button" id="romance" onClick={() => this.toggle('romance')}>Romance</button>
           <button className="genre-button" id="sad" onClick={() => this.toggle('sad')}>Sad</button>
           <button className="genre-button" id="samurai" onClick={() => this.toggle('samurai')}>Samurai</button>

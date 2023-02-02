@@ -32,11 +32,6 @@ class Start extends Component {
                         Films that are a bit different. The typical viewer might find these films to be quite odd. There's definitely an  
                         overlap between this genre and the 'deep' genre.
                     </p>
-                    <p className="faq-point">Why does the result sometimes look different?</p>
-                    <p className="faq-description">
-                        If you get more than 30 recommendations, then you will get a compressed list view instead of big, beautiful blocks. 
-                        In this scenario, simply click on the film rows if you want more metadata.
-                    </p>
                     <p className="faq-point">What happens if I click on the actual film posters?</p>
                     <p className="faq-description">
                         A new tab with the IMDb page of the film will open.

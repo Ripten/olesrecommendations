@@ -17,6 +17,14 @@ export const otherFilms =
       "tags": ["SAD", "CRIME", "DRAMA"]
     },
     {
+      "title": "All Quiet On The Western Front",
+      "star": false,
+      "language": "German",
+      "year": 2022,
+      "imdbLink": "https://www.imdb.com/title/tt1016150/",
+      "tags": ["WAR", "SAD", "DRAMA"]
+    },
+    {
       "title": "Battle Royale",
       "star": false,
       "language": "Japanese",

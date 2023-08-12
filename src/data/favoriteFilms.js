@@ -105,6 +105,14 @@ export const favoriteFilms =
       "tags": ["SAD", "ANIMATION", "WAR", "DARK"]
     },
     {
+      "title": "Ikiru",
+      "star": false,
+      "language": "Japanese",
+      "year": 1952,
+      "imdbLink": "https://www.imdb.com/title/tt0044741/",
+      "tags": ["CLASSIC", "SAD", "DRAMA", "BLACK_AND_WHITE"]
+    },
+    {
       "title": "In The Mood For Love",
       "star": true,
       "language": "Cantonese",

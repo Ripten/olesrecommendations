@@ -161,6 +161,14 @@ export const otherFilms =
       "tags": ["THRILLER"]
     },
     {
+      "title": "Monster",
+      "star": false,
+      "language": "Japanese",
+      "year": 2023,
+      "imdbLink": "https://www.imdb.com/title/tt23736044/",
+      "tags": ["DRAMA"]
+    },
+    {
       "title": "My Octopus Teacher",
       "star": false,
       "language": "English",

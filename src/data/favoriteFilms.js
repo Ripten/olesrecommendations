@@ -105,6 +105,14 @@ export const favoriteFilms =
       "tags": ["SAD", "ANIMATION", "WAR", "DARK"]
     },
     {
+      "title": "Harakiri",
+      "star": false,
+      "language": "Japanese",
+      "year": 1962,
+      "imdbLink": "https://www.imdb.com/title/tt0056058/",
+      "tags": ["DRAMA", "DARK", "VIOLENT", "BLACK_AND_WHITE"]
+    },
+    {
       "title": "Ikiru",
       "star": false,
       "language": "Japanese",

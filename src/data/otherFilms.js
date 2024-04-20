@@ -113,6 +113,14 @@ export const otherFilms =
       "tags": ["SAD", "CRIME", "GANGSTER", "DRAMA"]
     },
     {
+      "title": "Harakiri",
+      "star": false,
+      "language": "Japanese",
+      "year": 1962,
+      "imdbLink": "https://www.imdb.com/title/tt0056058/",
+      "tags": ["BLACK_AND_WHITE", "CLASSIC", "SAMURAI", "DARK"]
+    },
+    {
       "title": "Inception",
       "star": false,
       "language": "English",

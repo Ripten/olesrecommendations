@@ -105,20 +105,20 @@ export const otherFilms =
       "tags": ["SCIFI", "ACTION"]
     },
     {
+      "title": "Haikyuu!! The Dumpster Battle",
+      "star": false,
+      "language": "Japanese",
+      "year": 2024,
+      "imdbLink": "https://www.imdb.com/title/tt30476486/",
+      "tags": ["ANIMATION", "SPORTS", "KID_FRIENDLY"]
+    },
+    {
       "title": "Hana-bi",
       "star": false,
       "language": "Japanese",
       "year": 1997,
       "imdbLink": "https://www.imdb.com/title/tt0119250/",
       "tags": ["SAD", "CRIME", "GANGSTER", "DRAMA"]
-    },
-    {
-      "title": "Harakiri",
-      "star": false,
-      "language": "Japanese",
-      "year": 1962,
-      "imdbLink": "https://www.imdb.com/title/tt0056058/",
-      "tags": ["BLACK_AND_WHITE", "CLASSIC", "SAMURAI", "DARK"]
     },
     {
       "title": "Inception",
@@ -183,6 +183,14 @@ export const otherFilms =
       "year": 2020,
       "imdbLink": "https://www.imdb.com/title/tt12888462/",
       "tags": ["DOCUMENTARY"]
+    },
+    {
+      "title": "One Cut Of The Dead",
+      "star": false,
+      "language": "Japanese",
+      "year": 2017,
+      "imdbLink": "https://www.imdb.com/title/tt7914416/",
+      "tags": ["COMEDY", "HORROR"]
     },
     {
       "title": "Pulp Fiction",

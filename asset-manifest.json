@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/olesrecommendations/static/css/main.75ae5a99.css",
-    "main.js": "/olesrecommendations/static/js/main.1da53063.js",
+    "main.js": "/olesrecommendations/static/js/main.c5d180a1.js",
     "static/media/Kon.png": "/olesrecommendations/static/media/Kon.19a2155396c85e0e39ba.png",
     "static/media/star.png": "/olesrecommendations/static/media/star.3f026a8c8e63c9f016fc.png",
     "index.html": "/olesrecommendations/index.html",
     "main.75ae5a99.css.map": "/olesrecommendations/static/css/main.75ae5a99.css.map",
-    "main.1da53063.js.map": "/olesrecommendations/static/js/main.1da53063.js.map"
+    "main.c5d180a1.js.map": "/olesrecommendations/static/js/main.c5d180a1.js.map"
   },
   "entrypoints": [
     "static/css/main.75ae5a99.css",
-    "static/js/main.1da53063.js"
+    "static/js/main.c5d180a1.js"
   ]
 }
